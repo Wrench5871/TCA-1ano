@@ -2,8 +2,8 @@ console.log("ola, seja muito bem vindo! o que gostaria de fazer?");
 
 let acao_usuario = parseInt(
   prompt(
-    "insira 0 para sair do sistema, 1 para ver o catalogo de filmes, 2 para acessar a secao de ingressos e 3 para acessar os combos ",
-  ),
+    "insira 0 para sair do sistema, 1 para ver o catalogo de filmes, 2 para acessar a secao de ingressos e 3 para acessar os combos "
+  )
 );
 
 class filme {
@@ -15,168 +15,161 @@ class filme {
     this.Genero = Genero;
   }
 }
+
 const filme1 = new filme(
   "Donnie Darko",
   2001,
   "Richard Kelly",
   "14 Anos",
-  "Ficcao cientifica/Thriller",
+  "Ficcao cientifica/Thriller"
 );
 const filme2 = new filme(
   "Sociedade dos Poetas Mortos",
   1989,
   "Peter Weir",
   "12 Anos",
-  "Comedia/Drama",
+  "Comedia/Drama"
 );
 const filme3 = new filme(
   "Brilho Eterno de uma Mente sem Lembrancas",
   2004,
   "Michel Gondry",
   "14 anos",
-  "Drama/Romance",
+  "Drama/Romance"
 );
 const filme4 = new filme(
   "Duna: Parte 2",
   2024,
   "Denis Villeneuve",
   "14 Anos",
-  "Ficção Científica/Aventura",
+  "Ficção Científica/Aventura"
 );
 const filme5 = new filme(
   "Duna: Messias",
   2026,
   "Denis Villeneuve",
   "14 Anos",
-  "Ficção Científica/Drama",
+  "Ficção Científica/Drama"
 );
 const filme6 = new filme(
   "John Wick",
   2014,
   "Chad Stahelski",
   "16 Anos",
-  "Ação/Thriller",
+  "Ação/Thriller"
 );
-
 const filme7 = new filme(
   "John Wick: Chapter 2",
   2017,
   "Chad Stahelski",
   "16 Anos",
-  "Ação/Thriller",
+  "Ação/Thriller"
 );
-
 const filme8 = new filme(
   "John Wick: Chapter 3 - Parabellum",
   2019,
   "Chad Stahelski",
   "16 Anos",
-  "Ação/Thriller",
+  "Ação/Thriller"
 );
 const filme9 = new filme(
   "Prisoners",
   2013,
   "Denis Villeneuve",
   "16 Anos",
-  "Thriller/Drama",
+  "Thriller/Drama"
 );
 const filme10 = new filme(
   "The Hunt",
   2012,
   "Thomas Vinterberg",
   "14 Anos",
-  "Drama",
+  "Drama"
 );
 const filme11 = new filme(
   "But I'm a Cheerleader",
   1999,
   "Jamie Babbit",
   "14 Anos",
-  "Comédia/Romance",
+  "Comédia/Romance"
 );
 const filme12 = new filme(
   "Hereditário",
   2018,
   "Ari Aster",
   "16 Anos",
-  "Terror/Drama",
+  "Terror/Drama"
 );
-
 const filme13 = new filme(
   "Midsommar",
   2019,
   "Ari Aster",
   "18 Anos",
-  "Terror/Drama",
+  "Terror/Drama"
 );
-
 const filme14 = new filme(
   "Longlegs",
   2024,
   "Osgood Perkins",
   "18 Anos",
-  "Terror/Thriller",
+  "Terror/Thriller"
 );
 const filme15 = new filme(
   "Gente Grande",
   2010,
   "Dennis Dugan",
   "12 Anos",
-  "Comédia",
+  "Comédia"
 );
 const filme16 = new filme(
   "Corra!",
   2017,
   "Jordan Peele",
   "14 Anos",
-  "Terror/Thriller",
+  "Terror/Thriller"
 );
-
 const filme17 = new filme(
   "Túmulo dos Vagalumes",
   1988,
   "Isao Takahata",
   "12 Anos",
-  "Animação/Drama",
+  "Animação/Drama"
 );
 const filme18 = new filme(
   "Ponyo",
   2008,
   "Hayao Miyazaki",
   "Livre",
-  "Animação/Fantasia",
+  "Animação/Fantasia"
 );
-
 const filme19 = new filme(
   "A Viagem de Chihiro",
   2001,
   "Hayao Miyazaki",
   "Livre",
-  "Animação/Fantasia",
+  "Animação/Fantasia"
 );
-
 const filme20 = new filme(
   "Meu Amigo Totoro",
   1988,
   "Hayao Miyazaki",
   "Livre",
-  "Animação/Fantasia",
+  "Animação/Fantasia"
 );
 const filme21 = new filme(
   "Festa da Salsicha",
   2016,
   "Conrad Vernon e Greg Tiernan",
   "16 Anos",
-  "Animação/Comédia",
+  "Animação/Comédia"
 );
 const filme22 = new filme(
   "La La Land",
   2016,
   "Damien Chazelle",
-  "livre",
-  "Comédia/Drama",
+  "Livre",
+  "Comédia/Drama"
 );
-
 
 const listaDefilmes = [
   filme1,
@@ -211,52 +204,50 @@ class Combo {
   }
 }
 
-const combo0 = new Combo("Combo Individual", "1 Pipoca P + 1 Refri 500ml", 25.00);
-const combo1 = new Combo("Combo Duplo", "1 Pipoca M + 2 Refris 500ml", 45.00);
-const combo2 = new Combo("Combo Mega", "1 Pipoca G + 2 Refris 1L", 60.00);
-const combo3 = new Combo("Combo Família", "2 Pipocas G + 4 Refris 500ml", 85.00);
+const combo0 = new Combo(
+  "Combo Individual",
+  "1 Pipoca P + 1 Refri 500ml",
+  25.0
+);
+const combo1 = new Combo("Combo Duplo", "1 Pipoca M + 2 Refris 500ml", 45.0);
+const combo2 = new Combo("Combo Mega", "1 Pipoca G + 2 Refris 1L", 60.0);
+const combo3 = new Combo("Combo Família", "2 Pipocas G + 4 Refris 500ml", 85.0);
 
-const listaDeCombos = [combo1, combo2, combo3, combo4];
-
-
+const listaDeCombos = [combo0, combo1, combo2, combo3];
 
 while (acao_usuario !== 0) {
   if (acao_usuario === 1) {
     for (let i = 0; i < listaDefilmes.length; i++) {
       console.log(listaDefilmes[i]);
     }
+  } else if (acao_usuario === 2) {
+    let ingressos_comprados = parseInt(
+      prompt("quantos ingressos deseja comprar?")
+    );
+    let valor_ingresso = ingressos_comprados * 30;
+    console.log("Valor total dos ingressos: R$ " + valor_ingresso);
+  } else if (acao_usuario === 3) {
+    for (let i = 0; i < listaDeCombos.length; i++) {
+      console.log(
+        `Combo ${i}: ${listaDeCombos[i].nome} | Itens: ${listaDeCombos[i].itens} | Valor: R$ ${listaDeCombos[i].valor}`
+      );
+    }
+
+    let r = parseInt(
+      prompt("qual combo voce deseja comprar? insira o numero do combo (0 a 3)")
+    );
+
+    let combo_comprado = listaDeCombos[r];
+    console.log("Combo escolhido:", combo_comprado);
+  } else {
+    console.log("Opção inválida! Tente novamente.");
   }
-  else if(acao_usuario === 2){
-
-    let ingressos_comprados = parseInt(prompt("quantos ingressos deseja comprar?"))
-    let valor_ingresso = (ingressos_comprados)*30
-    console.log(valor_ingresso)
-  }
-  else{
-     for (let i = 0; i < listaDeCombos.length; i++) {
-      console.log(listaDeCombos[i]);}
-
-       let r = parseInt(prompt("qual combo voce deseja comprar? insira o numero do combo"))
-
-      let combo_comprado = listaDeCombos[r]
-
-
-     
-     }
-    
-
-
-
 
   acao_usuario = parseInt(
     prompt(
-      "insira 0 para sair do sistema, 1 para ver o catalogo de filmes, 2 para acessar a secao de ingressos e 3 para acessar os combos ",
-    ),
+      "insira 0 para sair do sistema, 1 para ver o catalogo de filmes, 2 para acessar a secao de ingressos e 3 para acessar os combos "
+    )
   );
+}
 
-
-
-
-
-  }
-
+console.log("Sistema encerrado. Até logo!");
